@@ -1,4 +1,4 @@
-package AOC2021.Day12;
+package aoc2021.Day12;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package AOC2022.Day07;
+package aoc2022.Day07;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -69,7 +69,7 @@ public class _MainDay07 {
 
     public static void main(String[] args) {
         try {
-            Scanner sc = new Scanner(new File("resources/AOC2022/Day07.txt"));
+            Scanner sc = new Scanner(new File("resources/aoc2022/Day07.txt"));
             FileSystem fileSystem = getFileSystem(sc);
             int limit = 100000;
             long totalAvailableSize = 70000000;

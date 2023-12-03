@@ -1,4 +1,4 @@
-package AOC2021.Day06;
+package aoc2021.Day06;
 
 public class Laternfish extends Lifetime{
 

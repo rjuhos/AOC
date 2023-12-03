@@ -1,4 +1,4 @@
-package AOC2022.Day09;
+package aoc2022.Day09;
 
 public class MoveCmd {
     private char dir = Character.MIN_VALUE;

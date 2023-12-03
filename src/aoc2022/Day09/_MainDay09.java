@@ -1,4 +1,4 @@
-package AOC2022.Day09;
+package aoc2022.Day09;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -54,7 +54,7 @@ public class _MainDay09 {
 
     public static void main(String[] args) {
         try {
-            Scanner sc = new Scanner(new File("resources/AOC2022/Day09.txt"));
+            Scanner sc = new Scanner(new File("resources/aoc2022/Day09.txt"));
             commands = getCommands(sc);
             map = new Map(commands);
             rope = new Rope(10, map.getStartX(), map.getStartY());

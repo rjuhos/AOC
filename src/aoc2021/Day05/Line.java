@@ -1,4 +1,4 @@
-package AOC2021.Day05;
+package aoc2021.Day05;
 
 public class Line {
     public boolean valid;

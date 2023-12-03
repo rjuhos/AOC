@@ -1,6 +1,4 @@
-package AOC2021.Day16;
-
-import org.jetbrains.annotations.NotNull;
+package aoc2021.Day16;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -10,7 +8,7 @@ import java.util.Scanner;
 
 public class _MainDay16 {
 
-    public static long readDataSource(@NotNull Scanner scanner) {
+    public static long readDataSource(Scanner scanner) {
         long versionSum = 0;
         long result = 0;
         List<Packet> Packets = new ArrayList<>();
@@ -55,7 +53,7 @@ public class _MainDay16 {
 
     public static void main(String[] args) {
         try {
-            Scanner scanner = new Scanner(new File("resources/AOC2021/Day16.txt"));
+            Scanner scanner = new Scanner(new File("resources/aoc2021/Day16.txt"));
             long result = readDataSource(scanner);
 
             System.out.println();

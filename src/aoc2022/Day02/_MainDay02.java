@@ -1,4 +1,4 @@
-package AOC2022.Day02;
+package aoc2022.Day02;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -131,7 +131,7 @@ public class _MainDay02 {
     
     public static void main(String[] args) {
         try {
-            Scanner sc = new Scanner(new File("resources/AOC2022/Day02.txt"));
+            Scanner sc = new Scanner(new File("resources/aoc2022/Day02.txt"));
             List<Integer> data = read(sc);
             System.out.println("the total score is " + totalResult(data));
         } catch (FileNotFoundException e) {

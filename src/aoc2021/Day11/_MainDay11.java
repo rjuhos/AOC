@@ -1,4 +1,4 @@
-package AOC2021.Day11;
+package aoc2021.Day11;
 
 import javax.management.NotCompliantMBeanException;
 import java.io.File;
@@ -122,7 +122,7 @@ public class _MainDay11 {
 
     public static void main(String[] args) {
         try {
-            Scanner sc = new Scanner(new File("resources/AOC2021/Day11.txt"));
+            Scanner sc = new Scanner(new File("resources/aoc2021/Day11.txt"));
             Octopus[][] grid = readSource(sc);
 
             System.out.format("\nThe 1st part result is .... % 12d", findResultPart1(grid));

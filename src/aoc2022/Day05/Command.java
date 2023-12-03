@@ -1,4 +1,4 @@
-package AOC2022.Day05;
+package aoc2022.Day05;
 
 public class Command {
     public int qty;

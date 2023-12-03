@@ -1,4 +1,4 @@
-package AOC2021.Day07;
+package aoc2021.Day07;
 
 public class Level {
     public int levelId;

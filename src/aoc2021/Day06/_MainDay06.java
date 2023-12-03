@@ -1,4 +1,4 @@
-package AOC2021.Day06;
+package aoc2021.Day06;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -67,7 +67,7 @@ public class _MainDay06 {
 
     public static void main(String[] args) {
         try {
-            Scanner sc = new Scanner(new File("resources/AOC2021/Day06.txt"));
+            Scanner sc = new Scanner(new File("resources/aoc2021/Day06.txt"));
             List<Laternfish> Lfs = readSource(sc);
 
             System.out.println("The result is ... " + findResult(Lfs));

@@ -1,4 +1,4 @@
-package AOC2022.Day07;
+package aoc2022.Day07;
 
 public class File {
     public String name = "";

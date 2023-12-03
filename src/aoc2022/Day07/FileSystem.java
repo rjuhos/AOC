@@ -1,4 +1,4 @@
-package AOC2022.Day07;
+package aoc2022.Day07;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

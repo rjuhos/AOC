@@ -1,4 +1,4 @@
-package AOC2021.Day13;
+package aoc2021.Day13;
 
 public class Dot {
     private int posX;

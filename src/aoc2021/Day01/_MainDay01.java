@@ -1,4 +1,4 @@
-package AOC2021.Day01;
+package aoc2021.Day01;
 
 import java.io.File;
 import java.io.FileNotFoundException;

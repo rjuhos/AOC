@@ -1,4 +1,4 @@
-package AOC2021.Test;
+package aoc2021.Test;
 
 public class Packet {
     private String message;

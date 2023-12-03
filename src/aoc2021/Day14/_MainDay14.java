@@ -1,6 +1,5 @@
-package AOC2021.Day14;
+package aoc2021.Day14;
 
-import org.jetbrains.annotations.NotNull;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -11,13 +10,13 @@ import java.util.Scanner;
 
 public class _MainDay14 {
 
-    private static String getInitString(@NotNull Scanner scanner) {
+    private static String getInitString(Scanner scanner) {
         if (scanner.hasNextLine())
             return scanner.nextLine();
         return "";
     }
 
-    private static @NotNull Rule getRules(@NotNull Scanner scanner) {
+    private static Rule getRules( Scanner scanner) {
         Rule rules = new Rule();
         // get the rules
         while (scanner.hasNextLine()) {
@@ -32,7 +31,7 @@ public class _MainDay14 {
         return rules;
     }
 
-    private static long findResult(@NotNull String initString, @NotNull Rule rules, int noOfSteps) {
+    private static long findResult(String initString, Rule rules, int noOfSteps) {
         // get polymer data
         List<String> polymerData = rules.getPolymerData();
         // init counters
@@ -71,7 +70,7 @@ public class _MainDay14 {
 
     public static void main(String[] args) {
         try {
-            Scanner scanner = new Scanner(new File("resources/AOC2021/Day14.txt"));
+            Scanner scanner = new Scanner(new File("resources/aoc2021/Day14.txt"));
             String initString = getInitString(scanner);
             Rule rules = getRules(scanner);
 

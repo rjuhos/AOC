@@ -1,4 +1,4 @@
-package AOC2022.Day12;
+package aoc2022.Day12;
 
 public class Vertex {
     private int id = -1;

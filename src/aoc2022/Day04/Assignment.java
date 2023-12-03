@@ -1,4 +1,4 @@
-package AOC2022.Day04;
+package aoc2022.Day04;
 
 public class Assignment {
     public Section first = new Section();

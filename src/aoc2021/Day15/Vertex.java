@@ -1,4 +1,4 @@
-package AOC2021.Day15;
+package aoc2021.Day15;
 
 public class Vertex {
     private long distance;

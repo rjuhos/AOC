@@ -1,6 +1,4 @@
-package AOC2021.Day15;
-
-import org.jetbrains.annotations.NotNull;
+package aoc2021.Day15;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -10,7 +8,7 @@ import java.util.Scanner;
 
 public class _MainDay15 {
 
-    private static Byte[][] getDistances(@NotNull Scanner scanner) {
+    private static Byte[][] getDistances(Scanner scanner) {
         List<ArrayList<Byte>> datList = new ArrayList<>();
         while (scanner.hasNextLine()) {
             char[] line = scanner.nextLine().toCharArray();
@@ -109,7 +107,7 @@ public class _MainDay15 {
 
     public static void main(String[] args) {
         try {
-            Scanner scanner = new Scanner(new File("resources/AOC2021/Day15.txt"));
+            Scanner scanner = new Scanner(new File("resources/aoc2021/Day15.txt"));
             Byte[][] distance = getDistances(scanner);
             Byte[][] fullMapDistance = getFullMapDistance(distance);
 

@@ -1,4 +1,4 @@
-package AOC2022.Day10;
+package aoc2022.Day10;
 
 public class Display {
     private char[][] pixels = new char[6][40];

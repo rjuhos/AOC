@@ -1,6 +1,4 @@
-package AOC2021.Day16;
-
-import org.jetbrains.annotations.NotNull;
+package aoc2021.Day16;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -99,7 +97,7 @@ public class Packet {
         }
     }
 
-    private static boolean isOperational(@NotNull String inString) {
+    private static boolean isOperational(String inString) {
         return (!inString.substring(3,6).equals("100"));
     }
 

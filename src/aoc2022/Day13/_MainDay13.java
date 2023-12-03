@@ -1,6 +1,6 @@
-package AOC2022.Day13;
+package aoc2022.Day13;
 
-import AOC2022.Day07.FileSystem;
+import aoc2022.Day07.FileSystem;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -31,7 +31,7 @@ public class _MainDay13 {
 
     public static void main(String[] args) {
         try {
-            Scanner sc = new Scanner(new File("resources/AOC2022/Day13.txt"));
+            Scanner sc = new Scanner(new File("resources/aoc2022/Day13.txt"));
             packets = redPackets(sc);
             System.out.println();
             System.out.println("the 1st result is ... " + getResult());

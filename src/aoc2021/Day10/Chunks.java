@@ -1,4 +1,4 @@
-package AOC2021.Day10;
+package aoc2021.Day10;
 
 import java.util.Stack;
 

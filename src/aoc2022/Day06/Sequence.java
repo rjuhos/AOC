@@ -1,4 +1,4 @@
-package AOC2022.Day06;
+package aoc2022.Day06;
 
 import java.util.Stack;
 import java.util.stream.IntStream;

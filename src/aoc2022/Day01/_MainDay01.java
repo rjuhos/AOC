@@ -1,4 +1,4 @@
-package AOC2022.Day01;
+package aoc2022.Day01;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -48,7 +48,7 @@ public class _MainDay01 {
 
     public static void main(String[] args) {
         try {
-            Scanner sc = new Scanner(new File("resources/AOC2022/Day01.txt"));
+            Scanner sc = new Scanner(new File("resources/aoc2022/Day01.txt"));
             List<Long> data = read(sc);
             System.out.println("the maximal total calories is " + findMax(data));
         } catch (FileNotFoundException e) {

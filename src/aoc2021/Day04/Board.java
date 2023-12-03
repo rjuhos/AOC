@@ -1,4 +1,4 @@
-package AOC2021.Day04;
+package aoc2021.Day04;
 
 public class Board {
     private int id;

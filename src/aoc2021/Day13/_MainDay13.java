@@ -1,4 +1,4 @@
-package AOC2021.Day13;
+package aoc2021.Day13;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -81,7 +81,7 @@ public class _MainDay13 {
     public static void main(String[] args) {
         Scanner scanner = null;
         try {
-            scanner = new Scanner(new File("resources/AOC2021/Day13.txt"));
+            scanner = new Scanner(new File("resources/aoc2021/Day13.txt"));
             long result = readSource(scanner);
 
             System.out.println();

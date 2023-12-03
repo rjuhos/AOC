@@ -1,4 +1,4 @@
-package AOC2022.Day05;
+package aoc2022.Day05;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -68,7 +68,7 @@ public class _MainDay05 {
         List<List<Character>> stacks = new ArrayList<List<Character>>();
         List<Command> commands = new ArrayList<Command>();
         try {
-            Scanner sc = new Scanner(new File("resources/AOC2022/Day05.txt"));
+            Scanner sc = new Scanner(new File("resources/aoc2022/Day05.txt"));
             read(sc, stacks, commands);
             reStack(stacks, commands);
             System.out.println("the 1st result is ... " + getResult(stacks));

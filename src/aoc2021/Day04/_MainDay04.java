@@ -1,4 +1,4 @@
-package AOC2021.Day04;
+package aoc2021.Day04;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -66,7 +66,7 @@ public class _MainDay04 {
 
     public static void main(String[] args) {
         try {
-            Scanner sc = new Scanner(new File("resources/AOC2021/Day04.txt"));
+            Scanner sc = new Scanner(new File("resources/aoc2021/Day04.txt"));
             List<Integer> Draws = readDraws(sc);
             List<Board> Boards = readBoards(sc);
 

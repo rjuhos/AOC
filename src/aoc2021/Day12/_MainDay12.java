@@ -1,4 +1,4 @@
-package AOC2021.Day12;
+package aoc2021.Day12;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -98,7 +98,7 @@ public class _MainDay12 {
 
     public static void main(String[] args) {
         try {
-            Scanner sc = new Scanner(new File("resources/AOC2021/Day12.txt"));
+            Scanner sc = new Scanner(new File("resources/aoc2021/Day12.txt"));
             List<Cave> caves = readSource(sc);
 
               System.out.format("\nThe 1st part result is .... % 12d", findResultPart1(caves));

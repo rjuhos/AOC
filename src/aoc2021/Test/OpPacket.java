@@ -1,6 +1,4 @@
-package AOC2021.Test;
-
-import org.jetbrains.annotations.NotNull;
+package aoc2021.Test;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -125,7 +123,7 @@ public class OpPacket {
         messageLength = end;
     }
 
-    private static boolean isOperational(@NotNull String inString) {
+    private static boolean isOperational(String inString) {
         return (!inString.substring(3,6).equals("100"));
     }
 

@@ -1,4 +1,4 @@
-package AOC2021.Test;
+package aoc2021.Test;
 
 import java.util.BitSet;
 import java.util.function.BiFunction;

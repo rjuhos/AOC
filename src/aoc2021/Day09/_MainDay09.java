@@ -1,4 +1,4 @@
-package AOC2021.Day09;
+package aoc2021.Day09;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -164,7 +164,7 @@ public class _MainDay09 {
 
     public static void main(String[] args) {
         try {
-            Scanner sc = new Scanner(new File("resources/AOC2021/Day09.txt"));
+            Scanner sc = new Scanner(new File("resources/aoc2021/Day09.txt"));
             List<ArrayList<Point>> map = readSource(sc);
             int noOfLowPoints = findLowPoints(map);
             System.out.println("The first result is ... " + findResult(map));

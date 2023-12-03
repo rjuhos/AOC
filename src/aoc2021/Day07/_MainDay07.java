@@ -1,4 +1,4 @@
-package AOC2021.Day07;
+package aoc2021.Day07;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -65,7 +65,7 @@ public class _MainDay07 {
 
     public static void main(String[] args) {
         try {
-            Scanner sc = new Scanner(new File("resources/AOC2021/Day07.txt"));
+            Scanner sc = new Scanner(new File("resources/aoc2021/Day07.txt"));
             List<Integer> pos = readSource(sc);
 
             System.out.println("The result is ... " + getResult(pos));

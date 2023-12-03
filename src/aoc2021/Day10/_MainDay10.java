@@ -1,4 +1,4 @@
-package AOC2021.Day10;
+package aoc2021.Day10;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -42,7 +42,7 @@ public class _MainDay10 {
 
     public static void main(String[] args) {
         try {
-            Scanner sc = new Scanner(new File("resources/AOC2021/Day10.txt"));
+            Scanner sc = new Scanner(new File("resources/aoc2021/Day10.txt"));
             List<Chunks> chunks = readSource(sc);
 
             System.out.format("\nThe 1st part result is .... % 12d", findResultPart1(chunks));

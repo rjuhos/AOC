@@ -1,4 +1,4 @@
-package AOC2021.Day09;
+package aoc2021.Day09;
 
 public class Point {
     public byte height;

@@ -1,4 +1,4 @@
-package AOC2022.Day11;
+package aoc2022.Day11;
 
 import java.math.BigInteger;
 import java.util.*;

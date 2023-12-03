@@ -1,4 +1,4 @@
-package AOC2022.Day08;
+package aoc2022.Day08;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -101,7 +101,7 @@ public class _MainDay08 {
 
     public static void main(String[] args) {
         try {
-            Scanner sc = new Scanner(new File("resources/AOC2022/Day08.txt"));
+            Scanner sc = new Scanner(new File("resources/aoc2022/Day08.txt"));
             char[][] forest = createForest(sc);
             System.out.println("the 1st result is ..." + getResult1(forest));
             System.out.println("the 2st result is ..." + getResult2(forest));

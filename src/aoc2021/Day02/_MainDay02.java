@@ -1,4 +1,4 @@
-package AOC2021.Day02;
+package aoc2021.Day02;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -43,7 +43,7 @@ public class _MainDay02 {
 
     public static void main(String[] args) {
         try {
-            Scanner sc = new Scanner(new File("resources/AOC2021/Day02.txt"));
+            Scanner sc = new Scanner(new File("resources/aoc2021/Day02.txt"));
             System.out.println("the result is " + findResult(sc));
         } catch (FileNotFoundException e) {
             System.out.println("this file does not exist");

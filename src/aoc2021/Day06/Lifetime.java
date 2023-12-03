@@ -1,4 +1,4 @@
-package AOC2021.Day06;
+package aoc2021.Day06;
 
 public abstract class Lifetime {
     public byte cycleTime = 6;

@@ -1,6 +1,4 @@
-package AOC2022._Test;
-
-import oop.Array;
+package aoc2022._Test;
 
 import java.nio.Buffer;
 import java.util.*;

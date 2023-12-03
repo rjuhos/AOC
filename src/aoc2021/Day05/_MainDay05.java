@@ -1,4 +1,4 @@
-package AOC2021.Day05;
+package aoc2021.Day05;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -53,7 +53,7 @@ public class _MainDay05 {
 
     public static void main(String[] args) {
         try {
-            Scanner sc = new Scanner(new File("resources/AOC2021/Day05.txt"));
+            Scanner sc = new Scanner(new File("resources/aoc2021/Day05.txt"));
             List<Line> Lines = readLines(sc);
 
             System.out.println("No of lines ...... " + Lines.size());

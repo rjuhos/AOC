@@ -1,4 +1,4 @@
-package AOC2021.Day11;
+package aoc2021.Day11;
 
 public class Octopus {
     public byte energy;
