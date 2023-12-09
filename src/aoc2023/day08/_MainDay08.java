@@ -47,21 +47,20 @@ public class _MainDay08 {
         return step;
     }
 
-    private static long gcd(long a, long b) {
+    private static long findGCD(long a, long b) {
         if (b == 0) { return a; }
-        return gcd(b, a % b);
+        return findGCD(b, a % b);
     }
 
     // Returns LCM of array elements
-    private static long findlcm(int[] arr)
-    {
+    private static long findLCM(int[] arr) {
         // Initialize result
         long ans = arr[0];
 
         // ans contains LCM of arr[0], ..arr[i]
         // after i'th iteration,
         for (int i = 0; i < arr.length; i++) {
-            ans = ((arr[i] * ans) / (gcd(arr[i], ans)));
+            ans = ((arr[i] * ans) / (findGCD(arr[i], ans)));
         }
         return ans;
     }
@@ -110,7 +109,7 @@ public class _MainDay08 {
             for (String nnn : nextNodeName) { isTheLast &= nnn.endsWith("Z");}
         } while (!noResult & !isTheLast);
 
-        return findlcm(steps);
+        return findLCM(steps);
     }
 
     private static Node getNode(String nodeName) {
